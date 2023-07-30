@@ -12,3 +12,5 @@ A REST API written in golang with swagger documentation included.
 - `go get -u github.com/swaggo/gin-swagger` - install gin-swagger
 - `go get -u github.com/swaggo/files` - install files (for swagger)
 - `swag init` - generate swagger documentation (run this in the root of the project each time to update the documentation)
+- `docker build -t rest-to-go-api .` - build docker image
+- `docker run -p 8080:8080 rest-to-go-api` - run docker image
